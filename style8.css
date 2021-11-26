@@ -59,7 +59,7 @@
   margin: 2 rem auto;
 }
 
-.bold {
+.bold_text{
   display: inline;
   font-size: 25px;
   color: black;
@@ -69,7 +69,7 @@
   border-radius: 30px;
 }
 
-.bold:hover {
+.bold_text:hover {
   background-color: chocolate;
 }
 a {
