@@ -12,6 +12,10 @@ var person1 = new person("Ram", "Kumar", "Patna");
 var person2 = new person("Shyam", "Kumar", "Delhi");
 var person3 = new person("Mohan", "Singh", "Mumbai");
 
+console.log(person1);
+console.log(person2);
+console.log(person3);
+
 var str = "";
 str = "\n Person1 => \n" + "firstName : " + person1.firstName;
 str += " , lastName : " + person1.lastName;
