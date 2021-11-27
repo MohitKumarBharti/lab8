@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .wide {
   width: 70%;
   margin: auto;
@@ -12,6 +16,7 @@
 
   padding: 1rem;
   margin: 2 rem auto;
+  box-shadow: -0.23rem -0.23rem 0.23rem 0.23rem #aca4a4;
 }
 
 .question p {
@@ -23,6 +28,7 @@
   text-align: center;
   padding: 1 rem;
   margin: 1 rem auto;
+  box-shadow: -0.23rem -0.23rem 0.23rem 0.23rem #aca4a4;
 }
 
 #ans1 {
@@ -35,6 +41,7 @@
 
   padding: 1rem;
   margin: 2 rem auto;
+  box-shadow: -0.23rem -0.23rem 0.23rem 0.23rem #aca4a4;
 }
 #ans2 {
   font-size: 20px;
@@ -46,6 +53,7 @@
 
   padding: 1rem;
   margin: 2 rem auto;
+  box-shadow: -0.23rem -0.23rem 0.23rem 0.23rem #aca4a4;
 }
 #ans3 {
   font-size: 20px;
@@ -57,21 +65,30 @@
 
   padding: 1rem;
   margin: 2 rem auto;
+  box-shadow: -0.23rem -0.23rem 0.23rem 0.23rem #aca4a4;
 }
 
-.boldText{
+.bold {
   display: inline;
   font-size: 25px;
   color: black;
   background-color: bisque;
   padding: 1rem;
-  margin-top: 2rem;
+  margin-top: 20rem;
   border-radius: 30px;
 }
 
-.boldText:hover {
+.bold:hover {
   background-color: chocolate;
 }
 a {
   text-decoration: none;
+}
+
+img {
+  border: 0.23rem solid #aca4a4;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 2rem;
 }
